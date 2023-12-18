@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/landing.css" rel="stylesheet" />
+    <link href="/css/global.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Coffee Shop - Home</title>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <nav class="site-header__nav">
+        <ul class="site-header__ul">
+          <div class="site-header__logo">
+            <li class="site-header__li site-header__adjust">
+              <a class="site-header__a" href="/index.html">
+                <img
+                  src="../Assets/logos/coffee-beans-logo-and-footer.svg"
+                  alt="coffee beans"
+                  width="50px"
+                />
+              </a>
+            </li>
+            <li class="site-header__li site-header__adjust">
+              <a class="site-header__a" href="/index.html"><h2>nitro</h2></a>
+            </li>
+          </div>
+          <div class="site-header__navbar">
+            <li class="site-header__li site-header__li--padding">
+              <a class="site-header__a" href="../index.html">ABOUT</a>
+            </li>
+            <li class="site-header__li site-header__li--padding">
+              <a class="site-header__a" href="/pages/menu.html">MENU</a>
+            </li>
+            <li class="site-header__li site-header__li--padding">
+              <a
+                class="site-header__a site-header__a--active"
+                href="/pages/menu.html"
+                >SHOP NOW</a
+              >
+            </li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="bannersection">
+      <article class="banner">
+        <h1 class="banner__title">Nitro Coffee</h1>
+        <p class="banner__description">
+          Coffee is a brewed drink prepared from roasted coffee beans, the seeds
+          of berries from certain Coffea species.
+        </p>
+        <div class="button__background"></div>
+        <a class="banner__button" href="./pages/menu.html">
+          <button class="button">SHOP NOW</button>
+        </a>
+      </article>
+
+      <article>
+        <img
+          class="banner__img"
+          src="./Assets/images/coffeebeans-hero.png"
+          alt="coffee bag"
+        />
+      </article>
+    </section>
+
+    <main class="products">
+      <h2 class="products">Our Products</h2>
+      <section class="product">
+        <div class="product__container">
+          <article class="product__article">
+            <img
+              class="product__article-img"
+              src="./Assets/images/coffeebeans.png"
+              alt="coffee beans"
+            />
+            <div class="product__wrapper">
+              <div class="product__details--wrapper">
+                <h3 class="product__article-name">Coffee Beans</h3>
+                <p class="product__quantity">Pack of 3</p>
+              </div>
+              <div class="product__price--wrapper">
+                <p class="product__article-price">$19</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="product__article">
+            <img
+              class="product__article-img product__article-img_coldbrew"
+              src="./Assets/images/coldbrew.png"
+              alt="cold brew"
+            />
+            <div class="product__wrapper">
+              <div class="product__details--wrapper">
+                <h3 class="product__article-name">Cold Brew</h3>
+                <p class="product__quantity">1 can</p>
+              </div>
+              <div class="product__price--wrapper">
+                <p class="product__article-price">$5</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="product__article">
+            <img
+              class="product__article-img product__article-img_inhouse"
+              src="./Assets/images/inhousebrew.png"
+              alt="in-house brew"
+            />
+            <div class="product__wrapper">
+              <div class="product__details--wrapper">
+                <h3 class="product__article-name">In-house Brew</h3>
+                <p class="product__quantity">1 cup</p>
+              </div>
+              <div class="product__price--wrapper">
+                <p class="product__article-price">$3</p>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <article class="product__button">
+          <div class="button__background"></div>
+          <a href="./pages/menu.html">
+            <button class="button">VIEW ALL</button>
+          </a>
+        </article>
+      </section>
+    </main>
+
+    <section class="storysection">
+      <article class="story">
+        <h1 class="story__title">We're Different</h1>
+        <p class="story__description">
+          We grow and roast our own beans. Every bean, every cup, every step of
+          the way, we strive for excellence.
+        </p>
+        <p class="story__icons">
+          <img
+            src="/Assets/logos/planting.svg"
+            alt="planting coffee beans"
+            width="50px"
+          />
+          <img
+            src="/Assets/logos/coffee-beans.svg"
+            alt="coffee beans"
+            width="50px"
+          />
+          <img
+            src="/Assets/logos/coffee-cup.svg"
+            alt="coffee cup"
+            width="50px"
+          />
+        </p>
+        <div class="button__background"></div>
+        <a class="story__button" href="./pages/menu.html">
+          <button class="button">LEARN MORE</button>
+        </a>
+      </article>
+
+      <article class="story__img--wrapper">
+        <img
+          class="story__img"
+          src="/Assets/images/tiltedcan.png"
+          alt="tilted coffee can"
+        />
+        <img
+          class="story__img--background"
+          src="/Assets/images/coldbrewbackground.png"
+          alt="background zigzag lines"
+        />
+      </article>
+    </section>
+
+    <section class="discount">
+      <p class="discount__description">
+        Get 20% off your first order with code: <strong>FirstNitro</strong>
+      </p>
+    </section>
+
+    <footer class="footer">
+      <img
+        class="footer__logo footer__logo-1"
+        src="/Assets/logos/coffee-beans-logo-and-footer.svg"
+        alt="coffee beans"
+        width="120px"
+      />
+      <div class="footer__container">
+        <article class="footer footer__address">
+          <h3>Address</h3>
+          <p>
+            503 Broadway Penthouse <br />
+            New York
+          </p>
+        </article>
+        <article class="footer">
+          <h3>Hours</h3>
+          <p>
+            <strong>Monday - Friday:</strong> 9am - 7pm <br />
+            <strong>Saturday - Sunday:</strong>10am - 5pm
+          </p>
+        </article>
+        <article class="footer">
+          <h3 class="footer__social">Social</h3>
+          <a class="adjust-a" href="facebook.com">
+            <img
+              class="footer__social"
+              src="./Assets/logos/Facebook-Icon.svg"
+              alt="facebook"
+            />
+          </a>
+          <a class="adjust-a" href="yelp.com">
+            <img
+              class="footer__social"
+              src="./Assets/logos/Yelp-Icon.svg"
+              alt="yelp"
+            />
+          </a>
+          <a class="adjust-a" href="instagram.com">
+            <img
+              class="footer__social"
+              src="./Assets/logos/Instagram-Icon.svg"
+              alt="instagram"
+            />
+          </a>
+        </article>
+      </div>
+      <img
+        class="footer__logo footer__logo-2"
+        src="/Assets/logos/coffee-beans-logo-and-footer.svg"
+        alt="coffee beans"
+        width="120px"
+      />
+    </footer>
+  </body>
+</html>

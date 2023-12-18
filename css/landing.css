@@ -1,0 +1,263 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #393939;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+}
+
+section.bannersection {
+  background-color: #fff0ed;
+  color: #393939;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner__description {
+  margin: 2rem 0;
+  letter-spacing: 0.02rem;
+}
+
+article.banner {
+  width: 27%;
+  margin-left: 6.25rem;
+}
+img.banner__img {
+  margin-right: 8.25rem;
+}
+
+.button {
+  background-color: #5bacc3;
+  color: white;
+  border: none;
+  width: 11.25rem;
+  padding: 1rem;
+  font-size: 1.313rem;
+  position: relative;
+}
+
+.button::before {
+  content: "";
+  border: 2px solid #393939;
+  width: 11rem;
+  height: 3.25rem;
+  position: absolute;
+  bottom: 0.25rem;
+  right: 0.25rem;
+}
+
+main.products {
+  background-color: #f7f7f7;
+}
+h2.products {
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+  margin: 0;
+  padding: 5rem;
+}
+
+div.product__container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 6.25rem;
+}
+
+.product__wrapper {
+  background-color: #fff0ed;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2.25rem;
+}
+
+.product__article {
+  width: 20.625rem;
+  height: 27.5rem;
+  display: inline-block;
+  justify-content: space-between;
+  border-radius: 10px;
+  box-shadow: 0 5px 9px 1px rgba(0, 0, 0, 0.25);
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.product__img {
+  height: 17.5rem;
+}
+
+.product__article-img {
+  padding-top: 2rem;
+  padding-bottom: 1.95rem;
+}
+
+.product__article-img_coldbrew {
+  padding-top: 1.4rem;
+}
+
+.product__article-img_inhouse {
+  padding-bottom: 2.3rem;
+}
+
+.product__details--wrapper {
+  text-align: left;
+  margin-left: 1.25rem;
+}
+
+.product__article-name {
+  margin: 0 auto;
+}
+
+.product__quantity {
+  margin: 0 auto;
+  color: #909090;
+}
+
+.product__price--wrapper {
+  margin-right: 1.25rem;
+}
+
+p.product__article-price {
+  color: #5bacc3;
+  font-size: xx-large;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+article.product__button {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.storysection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6.25rem;
+  gap: 16.25rem;
+}
+
+.story__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+.story__img--wrapper {
+  position: relative;
+}
+
+.story__img--background {
+  width: 25rem;
+}
+
+.story__img {
+  position: absolute;
+  border: 5px solid #5bacc3;
+  padding: 3.75rem 7.5rem;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}
+
+.story__description {
+  letter-spacing: 0.02rem;
+  margin: 2rem 0;
+}
+
+section.discount {
+  font-size: 2.813rem;
+  font-weight: 25;
+  background-color: #393939;
+  color: white;
+  width: 85%;
+  text-align: center;
+  padding: 0.25rem;
+  margin: 10rem auto;
+  box-sizing: border-box;
+}
+
+.discount__description {
+  letter-spacing: -0.05rem;
+}
+
+.banner__button {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #fff0ed;
+  color: #393939;
+  width: 100%;
+}
+
+div.footer__container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 6.25rem;
+  height: 17rem;
+}
+
+article.footer {
+  padding: 2.75rem 0;
+}
+
+.adjust-a {
+  text-decoration: none;
+}
+
+img.footer__social {
+  width: 3.125rem;
+}
+
+h3.footer__social {
+  margin-bottom: 1.25rem;
+}
+
+footer {
+  position: relative;
+}
+
+.footer__logo {
+  position: absolute;
+  opacity: 0.25;
+}
+.footer__logo-1 {
+  top: 1rem;
+  left: -2.5rem;
+}
+
+.footer__logo-2 {
+  bottom: 1rem;
+  left: 75rem;
+}
