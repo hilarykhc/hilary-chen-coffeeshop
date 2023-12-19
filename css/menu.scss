@@ -1,0 +1,136 @@
+@use "./partials/global" as *;
+@use "./partials/variables" as *;
+@use "./partials/mixins" as *;
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+menu {
+  background-image: url(../Assets/images/coffee-circle.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 43.75rem;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+}
+
+.title-box {
+  border: 5px solid $primary-color;
+  width: 18.75rem;
+  height: 12.5rem;
+  margin-top: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &__background {
+    width: 18.75rem;
+    height: 12.5rem;
+    background-color: $primary-color2;
+    position: absolute;
+    top: 22.563rem;
+    left: 31.563rem;
+  }
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 300;
+  color: #393939;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.063rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.items {
+  color: white;
+  background-color: #393939;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+
+  &__hot-drinks {
+    @include items-nav;
+  }
+
+  &__cold-drinks {
+    @include items-nav;
+  }
+
+  &__pastries {
+    @include items-nav;
+  }
+}
+
+li.items {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-left: 2px solid $primary-color1;
+  letter-spacing: 0.05rem;
+}
+
+.hot-drinks {
+  @include menu-style2;
+}
+
+.cold-drinks {
+  @include menu-style2;
+}
+
+.pastries {
+  @include menu-style1;
+}
+
+.price {
+  color: $primary-color1;
+  margin-top: 0.25rem;
+}
+
+.center-block {
+  @include text-description;
+}
+
+section {
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
+
+section.items {
+  padding: 0;
+}
+
+article ul li {
+  padding: 0;
+}

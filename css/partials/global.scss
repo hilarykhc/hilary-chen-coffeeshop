@@ -1,0 +1,58 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.site-header {
+  height: 6rem;
+
+  &__nav {
+    background-color: #fff0ed;
+
+    &__ul {
+      padding: 0;
+      margin: 0;
+      height: 6rem;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__logo {
+        margin-left: 2rem;
+
+        &__li {
+          list-style-type: none;
+          display: inline-block;
+          padding-left: 1rem;
+          font-size: 1.313rem;
+
+          &__a {
+            color: #393939;
+            text-decoration: none;
+          }
+
+          &__a--active {
+            color: #5bacc3;
+          }
+        }
+
+        &__adjust {
+          padding-left: 0;
+        }
+      }
+
+      &__navbar {
+        margin-right: 2rem;
+
+        &__li--padding {
+          padding-left: 2rem;
+        }
+      }
+    }
+  }
+}
